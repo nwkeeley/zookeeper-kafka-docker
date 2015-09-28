@@ -1,9 +1,9 @@
 zookeeper:
-  image: nwkeeley/zookeeper
+  image: nwkeeley/zookeeper-docker
   ports:
     - "2181:2181"
 kafka:
-  image: nwkeeley/kafka:0.8.2.1
+  image: nwkeeley/kafka-docker:0.8.2.1
   ports:
     - "9092:9092"
   links:
